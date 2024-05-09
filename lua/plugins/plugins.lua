@@ -1,4 +1,33 @@
 local plugins = {
+  -- Auto Pairs
+  {
+    "windwp/nvim-autopairs"
+  },
+    -- Bufferline
+  {
+    "akinsho/bufferline.nvim",
+      dependencies = {
+        "nvim-tree/nvim-web-devicons"
+      },
+  },
+  {
+    "lewis6991/gitsigns.nvim",
+  },
+  -- Indentation Highlighting
+  {
+    "lukas-reineke/indent-blankline.nvim",
+  },
+    -- Rainbow Highlighting
+  {
+    "HiPhish/nvim-ts-rainbow2"
+  },
+  -- Lualine
+  {
+    "nvim-lualine/lualine.nvim",
+      dependencies = {
+            "nvim-tree/nvim-web-devicons"
+      },
+  },
   {
     "kdheepak/lazygit.nvim",
     	cmd = {
